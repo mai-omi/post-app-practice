@@ -1,0 +1,117 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="WkkGvvOYrHKm9vxxLcvM">
+    <mxGraphModel dx="1662" dy="1045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-8" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-9" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="「カートに入れる」を押す" vertex="1">
+          <mxGeometry relative="1" x="-0.0326" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-22" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-23" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="「注文の状況を見る」を押す" vertex="1">
+          <mxGeometry relative="1" x="-0.3333" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="メニュー画面" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-12" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-13" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="「支払いに進む」を押す" vertex="1">
+          <mxGeometry relative="1" x="0.3143" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="カート画面" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-14" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-15" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="支払いを終える" vertex="1">
+          <mxGeometry relative="1" x="0.0083" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="支払いの画面" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-20" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-21" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="「メニューに戻る」を押す" vertex="1">
+          <mxGeometry relative="1" x="0.3949" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="注文状況画面" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="注文完了画面" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-24" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-25" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="注文を選ぶ" vertex="1">
+          <mxGeometry relative="1" x="-0.3011" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="注文一覧画面" vertex="1">
+          <mxGeometry height="60" width="120" x="160" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-26" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-27" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="「受け渡し済みにする」を押す" vertex="1">
+          <mxGeometry relative="1" x="0.0138" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="注文詳細画面" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-10" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.755;entryY=1.047;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-11" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="「買い物を続ける」を押す" vertex="1">
+          <mxGeometry relative="1" x="-0.1242" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-16" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.333;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-17" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="「注文の状況を見る」を押す" vertex="1">
+          <mxGeometry relative="1" x="0.2745" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-18" edge="1" parent="1" source="ZoJNBNRDLupPC6FML0jY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="ZoJNBNRDLupPC6FML0jY-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="260" />
+              <mxPoint x="700" y="260" />
+              <mxPoint x="700" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZoJNBNRDLupPC6FML0jY-19" connectable="0" parent="ZoJNBNRDLupPC6FML0jY-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="「注文を取り消す」を押す" vertex="1">
+          <mxGeometry relative="1" x="0.0588" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
