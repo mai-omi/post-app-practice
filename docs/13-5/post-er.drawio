@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="Ce3JMuWz__KjZ0fqo2Rv">
+    <mxGraphModel dx="813" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M-swHCGt6C9R6CKorf_W-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="users" vertex="1">
+          <mxGeometry height="80" width="180" x="110" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M-swHCGt6C9R6CKorf_W-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="categories" vertex="1">
+          <mxGeometry height="80" width="180" x="110" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="M-swHCGt6C9R6CKorf_W-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="posts" vertex="1">
+          <mxGeometry height="80" width="180" x="560" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="M-swHCGt6C9R6CKorf_W-4" edge="1" parent="1" source="M-swHCGt6C9R6CKorf_W-1" style="endArrow=ERzeroToMany;html=1;rounded=0;defaultLabelBackgroundColor=page;endFill=0;entryX=-0.011;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmandOne;startFill=0;" target="M-swHCGt6C9R6CKorf_W-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="320" y="320" as="sourcePoint" />
+            <mxPoint x="370" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-swHCGt6C9R6CKorf_W-6" connectable="0" parent="M-swHCGt6C9R6CKorf_W-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="一人のユーザーは、&lt;div&gt;複数の投稿を書く&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0161" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-swHCGt6C9R6CKorf_W-5" edge="1" parent="1" source="M-swHCGt6C9R6CKorf_W-2" style="endArrow=ERzeroToMany;html=1;rounded=0;defaultLabelBackgroundColor=page;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmandOne;startFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="250" as="sourcePoint" />
+            <mxPoint x="556.94" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M-swHCGt6C9R6CKorf_W-7" connectable="0" parent="M-swHCGt6C9R6CKorf_W-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="一つのカテゴリには、&lt;div&gt;複数の投稿が属する&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0042" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
