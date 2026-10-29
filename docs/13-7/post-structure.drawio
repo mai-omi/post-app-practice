@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="-tpemIDVAtTnLjGy2EYV">
+    <mxGraphModel dx="594" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-12" edge="1" parent="1" source="Akj5UENeRpMfO-JTFGjV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Akj5UENeRpMfO-JTFGjV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ルーティング" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-13" edge="1" parent="1" source="Akj5UENeRpMfO-JTFGjV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Akj5UENeRpMfO-JTFGjV-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-14" edge="1" parent="1" source="Akj5UENeRpMfO-JTFGjV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Akj5UENeRpMfO-JTFGjV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-15" edge="1" parent="1" source="Akj5UENeRpMfO-JTFGjV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Akj5UENeRpMfO-JTFGjV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="コントローラー" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-20" edge="1" parent="1" source="Akj5UENeRpMfO-JTFGjV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Akj5UENeRpMfO-JTFGjV-5">
+          <mxGeometry relative="1" x="0.0202" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="135" />
+              <mxPoint x="610" y="135" />
+              <mxPoint x="610" y="315" />
+              <mxPoint x="570" y="315" />
+              <mxPoint x="570" y="435" />
+            </Array>
+            <mxPoint x="560" y="135" as="sourcePoint" />
+            <mxPoint x="570" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ビュー" vertex="1">
+          <mxGeometry height="60" width="127" x="413" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="認可" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-16" edge="1" parent="1" source="Akj5UENeRpMfO-JTFGjV-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="Akj5UENeRpMfO-JTFGjV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="テーブル" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="データベース" vertex="1">
+          <mxGeometry height="60" width="120" x="650" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Akj5UENeRpMfO-JTFGjV-8" edge="1" parent="1" source="Akj5UENeRpMfO-JTFGjV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="Akj5UENeRpMfO-JTFGjV-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
