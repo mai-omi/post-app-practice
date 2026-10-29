@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="psKBAqN0RnOpWGWF-W2l">
+    <mxGraphModel dx="1024" dy="984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-14" edge="1" parent="1" source="L57xtESZif_dMOYqJ7Gj-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="L57xtESZif_dMOYqJ7Gj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-15" connectable="0" parent="L57xtESZif_dMOYqJ7Gj-14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="申請者が書き直して出し直す&lt;div&gt;(出し直せるのは、その申請を出した本人だけ)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0017" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="差し戻し" vertex="1">
+          <mxGeometry height="60" width="120" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-10" edge="1" parent="1" source="L57xtESZif_dMOYqJ7Gj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="L57xtESZif_dMOYqJ7Gj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-11" connectable="0" parent="L57xtESZif_dMOYqJ7Gj-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="承認者が承認する" vertex="1">
+          <mxGeometry relative="1" x="-0.043" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-12" edge="1" parent="1" source="L57xtESZif_dMOYqJ7Gj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="L57xtESZif_dMOYqJ7Gj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-13" connectable="0" parent="L57xtESZif_dMOYqJ7Gj-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="承認者が差し戻す&lt;div&gt;(差し戻しの理由が書かれていること)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0138" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="申請中" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="承認済み" vertex="1">
+          <mxGeometry height="60" width="120" x="530" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-6" edge="1" parent="1" source="L57xtESZif_dMOYqJ7Gj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="L57xtESZif_dMOYqJ7Gj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="310" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-7" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="380" as="sourcePoint" />
+            <mxPoint x="590" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#FFFFFF;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="560" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="L57xtESZif_dMOYqJ7Gj-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="570" y="570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="ZJrP9nSzIL_qFbd_YB7I">
+    <mxGraphModel dx="716" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-5" edge="1" parent="1" source="MOdvkllfOo7nKMAKQ7kV-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" x="-0.0004" as="geometry">
+            <mxPoint x="150.1379310344828" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="承認者" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-6" edge="1" parent="1" source="MOdvkllfOo7nKMAKQ7kV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="354" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="アプリ" vertex="1">
+          <mxGeometry height="60" width="120" x="294" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-7" edge="1" parent="1" source="MOdvkllfOo7nKMAKQ7kV-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="データベース" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-8" edge="1" parent="1" source="MOdvkllfOo7nKMAKQ7kV-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;startArrow=none;startFill=0;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="863.448275862069" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="申請者" vertex="1">
+          <mxGeometry height="60" width="120" x="680" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="210" as="sourcePoint" />
+            <mxPoint x="350" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-10" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="差し戻すことと、&lt;div&gt;その理由を送る&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0298" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="260" as="sourcePoint" />
+            <mxPoint x="540" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-14" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="その申請がまだ申請中かを読む" vertex="1">
+          <mxGeometry relative="1" x="0.0474" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-15" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="320" as="sourcePoint" />
+            <mxPoint x="350" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-16" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="申請の状態を返す" vertex="1">
+          <mxGeometry relative="1" x="-0.0287" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="380" as="sourcePoint" />
+            <mxPoint x="540" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-19" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="状態と差し戻しの理由を&lt;div&gt;書き換える&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0474" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="420" as="sourcePoint" />
+            <mxPoint x="350" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-21" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="書き換えられたことを返す" vertex="1">
+          <mxGeometry relative="1" x="-0.0287" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-22" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="150" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-23" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="差し戻されたことを返す" vertex="1">
+          <mxGeometry relative="1" x="0.0667" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-24" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="740" y="470" as="sourcePoint" />
+            <mxPoint x="350" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-25" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-24" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="申請一覧画面を開く" vertex="1">
+          <mxGeometry relative="1" x="0.4974" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-26" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="530" as="sourcePoint" />
+            <mxPoint x="540" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-27" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="その社員が出した申請を読む" vertex="1">
+          <mxGeometry relative="1" x="0.0474" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-28" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="540" y="570" as="sourcePoint" />
+            <mxPoint x="350" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-29" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-28" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="申請の一覧を返す" vertex="1">
+          <mxGeometry relative="1" x="-0.0287" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-30" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="620" as="sourcePoint" />
+            <mxPoint x="740" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MOdvkllfOo7nKMAKQ7kV-32" connectable="0" parent="MOdvkllfOo7nKMAKQ7kV-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="差し戻されたことと、その理由を映す" vertex="1">
+          <mxGeometry relative="1" x="0.0023" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
