@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="Mph2Xeosokuv6r4ZG-yH">
+    <mxGraphModel dx="594" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-2" edge="1" parent="1" source="xuBT0pTUlbdmB7jRv7Xi-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="xuBT0pTUlbdmB7jRv7Xi-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#0e0101, #ededed);" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="90" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-4" edge="1" parent="1" source="xuBT0pTUlbdmB7jRv7Xi-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-5" connectable="0" parent="xuBT0pTUlbdmB7jRv7Xi-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="支払いが済んだら知らせが届く" vertex="1">
+          <mxGeometry relative="1" x="-0.0286" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="支払い待ち" vertex="1">
+          <mxGeometry height="60" width="120" x="55" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-18" edge="1" parent="1" source="xuBT0pTUlbdmB7jRv7Xi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="xuBT0pTUlbdmB7jRv7Xi-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-20" connectable="0" parent="xuBT0pTUlbdmB7jRv7Xi-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="店員が受け渡し済みにする" vertex="1">
+          <mxGeometry relative="1" x="0.1" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="受け取り前" vertex="1">
+          <mxGeometry height="60" width="120" x="55" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-13" edge="1" parent="1" source="xuBT0pTUlbdmB7jRv7Xi-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="xuBT0pTUlbdmB7jRv7Xi-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="取消済み" vertex="1">
+          <mxGeometry height="60" width="120" x="400" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-11" edge="1" parent="1" source="xuBT0pTUlbdmB7jRv7Xi-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="xuBT0pTUlbdmB7jRv7Xi-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="320" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-12" connectable="0" parent="xuBT0pTUlbdmB7jRv7Xi-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="支払いが済まないまま終わる" vertex="1">
+          <mxGeometry relative="1" x="0.0034" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="430" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="440" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=-0.017;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" target="xuBT0pTUlbdmB7jRv7Xi-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="180" y="300" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-17" connectable="0" parent="xuBT0pTUlbdmB7jRv7Xi-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="お客様が取り消す" vertex="1">
+          <mxGeometry relative="1" x="0.0088" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-23" edge="1" parent="1" source="xuBT0pTUlbdmB7jRv7Xi-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="受け渡し済み" vertex="1">
+          <mxGeometry height="60" width="120" x="55" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-24" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="85" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="xuBT0pTUlbdmB7jRv7Xi-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="95" y="510" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
