@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="IH1bLttakf6_Om8rvLz7">
+    <mxGraphModel dx="716" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;labelPerimeter=1;" value="経費精算アプリ" vertex="1">
+          <mxGeometry height="550" width="370" x="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-11" edge="1" parent="1" source="9jwuvTIiZNjnsIMf3_3P-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="9jwuvTIiZNjnsIMf3_3P-6">
+          <mxGeometry relative="1" x="0.0041" as="geometry">
+            <mxPoint x="160" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-13" edge="1" parent="1" source="9jwuvTIiZNjnsIMf3_3P-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="9jwuvTIiZNjnsIMf3_3P-10">
+          <mxGeometry relative="1" x="0.002" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="申請者" vertex="1">
+          <mxGeometry height="190" width="90" x="60" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-15" edge="1" parent="1" source="9jwuvTIiZNjnsIMf3_3P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="9jwuvTIiZNjnsIMf3_3P-7">
+          <mxGeometry relative="1" x="0.0034" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-16" edge="1" parent="1" source="9jwuvTIiZNjnsIMf3_3P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="9jwuvTIiZNjnsIMf3_3P-8">
+          <mxGeometry relative="1" x="0.0051" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-17" edge="1" parent="1" source="9jwuvTIiZNjnsIMf3_3P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="9jwuvTIiZNjnsIMf3_3P-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-18" edge="1" parent="1" source="9jwuvTIiZNjnsIMf3_3P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="9jwuvTIiZNjnsIMf3_3P-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-4" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelPerimeter=1;" value="承認者" vertex="1">
+          <mxGeometry height="180" width="90" x="700" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="経費を申請する" vertex="1">
+          <mxGeometry height="80" width="260" x="320" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="申請状況を確認する" vertex="1">
+          <mxGeometry height="80" width="260" x="315" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="申請を承認する" vertex="1">
+          <mxGeometry height="80" width="260" x="315" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="申請を差し戻す" vertex="1">
+          <mxGeometry height="80" width="260" x="320" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="差し戻された申請を出し直す" vertex="1">
+          <mxGeometry height="80" width="260" x="320" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-12" edge="1" parent="1" source="9jwuvTIiZNjnsIMf3_3P-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.402;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="9jwuvTIiZNjnsIMf3_3P-7">
+          <mxGeometry relative="1" x="0.0013" as="geometry" />
+        </mxCell>
+        <mxCell id="9jwuvTIiZNjnsIMf3_3P-14" edge="1" parent="1" source="9jwuvTIiZNjnsIMf3_3P-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.865;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="9jwuvTIiZNjnsIMf3_3P-1">
+          <mxGeometry relative="1" x="-0.0001" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

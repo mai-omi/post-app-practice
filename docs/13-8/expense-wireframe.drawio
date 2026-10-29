@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="ページ-1" id="eH2T9oPaarNA8YlfTp-H">
+    <mxGraphModel dx="1238" dy="1190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oGrPFll1kyoq347e39NR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="130" width="530" x="120" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="経費を申請する" vertex="1">
+          <mxGeometry height="60" width="420" x="170" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="530" x="120" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="260" width="530" x="120" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="使った日" vertex="1">
+          <mxGeometry height="40" width="120" x="170" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="金額" vertex="1">
+          <mxGeometry height="40" width="120" x="170" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="費目" vertex="1">
+          <mxGeometry height="40" width="120" x="170" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="用途" vertex="1">
+          <mxGeometry height="40" width="120" x="170" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="年 / 月 / 日" vertex="1">
+          <mxGeometry height="40" width="250" x="340" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="交通費 / 書籍代 / 会議費 / その他" vertex="1">
+          <mxGeometry height="40" width="250" x="340" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="40" width="250" x="340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="半角の数字" vertex="1">
+          <mxGeometry height="40" width="160" x="340" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="円" vertex="1">
+          <mxGeometry height="40" width="70" x="520" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="差し戻しの理由&lt;div&gt;(差し戻された申請を書き直す時だけ表示する)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;費目が会議費に見えません。交通費として出し直してくだし。&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="420" x="170" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="提出する" vertex="1">
+          <mxGeometry height="40" width="180" x="170" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="oGrPFll1kyoq347e39NR-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="やめる" vertex="1">
+          <mxGeometry height="40" width="180" x="410" y="670" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
