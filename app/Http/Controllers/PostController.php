@@ -15,6 +15,13 @@ class PostController extends Controller
         return view('posts.index', compact('posts'));
     }
 
+    public function show(Post $post)
+    {
+        $replies = $post->replies()->with('user')->oldest()->get();
+
+        return view('posts.show', compact('post', 'replies'));
+    }
+
     public function edit(Post $post)
     {
         $this->authorize('update', $post);
