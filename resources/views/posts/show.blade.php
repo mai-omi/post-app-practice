@@ -150,7 +150,7 @@
     const MAX = 140;
 
     function update() {
-        const left = MAX - textarea.value.length;
+        const left = MAX - [...textarea.value].length;
         remaining.textContent = left;
         counter.classList.toggle('over', left < 0);
         counter.classList.toggle('warn', left >= 0 && left <= 20);

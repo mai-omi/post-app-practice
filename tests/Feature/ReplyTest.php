@@ -78,6 +78,14 @@ class ReplyTest extends TestCase
             ->assertRedirect(route('login'));
     }
 
+    public function test_未ログインでリプライ削除しようとするとリダイレクトされる(): void
+    {
+        $reply = Reply::factory()->create();
+
+        $this->delete(route('replies.destroy', $reply))
+            ->assertRedirect(route('login'));
+    }
+
     // ------------------------------------------------------------------ リプライ作成
 
     public function test_正常なリプライが保存されて詳細画面にリダイレクトされる(): void

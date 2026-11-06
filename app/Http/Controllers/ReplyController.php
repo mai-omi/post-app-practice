@@ -30,9 +30,9 @@ class ReplyController extends Controller
     {
         $this->authorize('delete', $reply);
 
-        $post = $reply->post;
+        $postId = $reply->post_id;
         $reply->delete();
 
-        return redirect()->route('posts.show', $post);
+        return redirect()->route('posts.show', $postId);
     }
 }

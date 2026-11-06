@@ -17,6 +17,7 @@ class PostController extends Controller
 
     public function show(Post $post)
     {
+        $post->load(['user', 'category']);
         $replies = $post->replies()->with('user')->oldest()->get();
 
         return view('posts.show', compact('post', 'replies'));
