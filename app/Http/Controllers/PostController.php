@@ -28,11 +28,16 @@ class PostController extends Controller
     {
         $this->authorize('update', $post);
 
-        $validated = $request->validate([
-            'title' => 'required|string|max:255',
-            'content' => 'required|string',
-            'category_id' => 'required|exists:categories,id',
-        ]);
+        $validated = $request->validate(
+            [
+                'title'       => 'required|string|max:255',
+                'content'     => 'required|string|max:140',
+                'category_id' => 'required|exists:categories,id',
+            ],
+            [
+                'content.max' => '本文は140字以内で入力してください。',
+            ]
+        );
 
         $post->update($validated);
 
