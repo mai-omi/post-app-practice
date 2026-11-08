@@ -38,7 +38,6 @@
         .post-actions a:hover { color: #0F1419; text-decoration: underline; text-underline-offset: 3px; }
         .post-actions button:hover { color: #D6402C; text-decoration: underline; text-underline-offset: 3px; }
         .post-actions a:focus-visible, .post-actions button:focus-visible { outline: 2px solid #E8792B; outline-offset: 2px; border-radius: 4px; }
-        .edited-badge { color: #98A1A8; font-size: 0.75rem; }
         .empty { color: #5B6570; text-align: center; padding: 3.5rem 1rem; }
     </style>
 </head>
@@ -102,9 +101,6 @@
                             <div class="post-head">
                                 <span class="name">{{ $post->user->name }}</span>
                                 <span class="time">{{ $post->created_at->format('n月j日 H:i') }}</span>
-                                @if($post->updated_at->gt($post->created_at))
-                                    <span class="edited-badge">編集済み</span>
-                                @endif
                                 <span class="topic" style="background: {{ $tBg }}; color: {{ $tFg }};">{{ $post->category->name }}</span>
                             </div>
                             <p class="post-title">{{ $post->title }}</p>
