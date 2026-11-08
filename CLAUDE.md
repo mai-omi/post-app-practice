@@ -34,6 +34,23 @@ Kiro-style Spec-Driven Development on an agentic SDLC
   - `/kiro:validate-impl {feature}` (optional: after implementation)
 - Progress check: `/kiro:spec-status {feature}` (use anytime)
 
+## App Conventions
+
+- 今ある動き（一覧・編集・削除）を壊さない。
+- バリデーションエラーメッセージはすべて日本語で出力する。
+
+## Testing Rules
+
+- 機能を実装・変更したら、対応するテストを必ず書く。
+- テストは `./vendor/bin/sail test` で実行し、すべて通るまで修正する。
+- 完了報告には「テスト実行結果（件数・Pass/Fail）」を含める。
+
+## Pull Request Rules
+
+- PR 本文には以下を含める：
+  - テスト実行結果（件数・Pass/Fail）
+  - 受け入れ条件と実装内容の突き合わせ（条件ごとに対応箇所を示す）
+
 ## Development Rules
 - 3-phase approval workflow: Requirements → Design → Tasks → Implementation
 - Human review required each phase; use `-y` only for intentional fast-track
