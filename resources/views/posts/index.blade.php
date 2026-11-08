@@ -38,6 +38,11 @@
         .post-actions a:hover { color: #0F1419; text-decoration: underline; text-underline-offset: 3px; }
         .post-actions button:hover { color: #D6402C; text-decoration: underline; text-underline-offset: 3px; }
         .post-actions a:focus-visible, .post-actions button:focus-visible { outline: 2px solid #E8792B; outline-offset: 2px; border-radius: 4px; }
+        .like-btn { background: none; border: none; padding: 0; color: #5B6570; font-size: 0.8rem; font-weight: 600; cursor: pointer; font-family: inherit; display: inline-flex; align-items: center; gap: 0.25rem; }
+        .like-btn:hover { color: #E8792B; }
+        .like-btn.liked { color: #E8792B; }
+        .like-btn:focus-visible { outline: 2px solid #E8792B; outline-offset: 2px; border-radius: 4px; }
+        .edited-badge { color: #98A1A8; font-size: 0.75rem; }
         .empty { color: #5B6570; text-align: center; padding: 3.5rem 1rem; }
     </style>
 </head>
@@ -101,24 +106,32 @@
                             <div class="post-head">
                                 <span class="name">{{ $post->user->name }}</span>
                                 <span class="time">{{ $post->created_at->format('n月j日 H:i') }}</span>
+                                @if($post->updated_at->gt($post->created_at))
+                                    <span class="edited-badge">編集済み</span>
+                                @endif
                                 <span class="topic" style="background: {{ $tBg }}; color: {{ $tFg }};">{{ $post->category->name }}</span>
                             </div>
                             <p class="post-title">{{ $post->title }}</p>
                             <p class="post-text">{{ $post->content }}</p>
-                            @canany(['update', 'delete'], $post)
-                                <div class="post-actions">
-                                    @can('update', $post)
-                                        <a href="{{ route('posts.edit', $post) }}">編集</a>
-                                    @endcan
-                                    @can('delete', $post)
-                                        <form action="{{ route('posts.destroy', $post) }}" method="POST" style="display: inline;">
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit">削除</button>
-                                        </form>
-                                    @endcan
-                                </div>
-                            @endcanany
+                            <div class="post-actions">
+                                @php $liked = $post->isLikedBy(auth()->id()); @endphp
+                                <form action="{{ route('posts.like', $post) }}" method="POST" style="display: inline;">
+                                    @csrf
+                                    <button type="submit" class="like-btn {{ $liked ? 'liked' : '' }}">
+                                        {{ $liked ? '♥' : '♡' }} {{ $post->likes_count }}
+                                    </button>
+                                </form>
+                                @can('update', $post)
+                                    <a href="{{ route('posts.edit', $post) }}">編集</a>
+                                @endcan
+                                @can('delete', $post)
+                                    <form action="{{ route('posts.destroy', $post) }}" method="POST" style="display: inline;">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit">削除</button>
+                                    </form>
+                                @endcan
+                            </div>
                         </div>
                     </article>
                 @endforeach
