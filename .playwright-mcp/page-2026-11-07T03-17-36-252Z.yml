@@ -1,0 +1,515 @@
+- generic [ref=f6e2]:
+  - navigation [ref=f6e3]:
+    - generic [ref=f6e4]:
+      - generic [ref=f6e6]:
+        - list [ref=f6e7]:
+          - listitem [ref=f6e8]:
+            - link [ref=f6e9] [cursor=pointer]:
+              - /url: "#stack"
+              - button "Stack" [ref=f6e10]
+          - listitem [ref=f6e14]:
+            - link [ref=f6e15] [cursor=pointer]:
+              - /url: "#context"
+              - button "Context" [ref=f6e16]
+          - listitem [ref=f6e20]:
+            - link [ref=f6e21] [cursor=pointer]:
+              - /url: https://flareapp.io/?utm_campaign=ignition&utm_source=ignition
+              - button "Flare" [ref=f6e22]
+        - list [ref=f6e29]:
+          - listitem [ref=f6e30]:
+            - link [ref=f6e31] [cursor=pointer]:
+              - /url: "#share"
+              - button "Share" [ref=f6e32]
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Share with Flare" [level=4]
+                  - link "Docs":
+                    - /url: https://flareapp.io/docs/ignition/introducing-ignition/sharing-errors?utm_campaign=ignition&utm_source=ignition
+                - list:
+                  - listitem:
+                    - generic:
+                      - checkbox "Stack" [checked]
+                      - generic: Stack
+                  - listitem:
+                    - generic:
+                      - checkbox "Context" [checked]
+                      - generic: Context
+                  - listitem:
+                    - generic:
+                      - checkbox "Debug" [checked]
+                      - generic: Debug
+                - generic:
+                  - button "Create Share"
+          - listitem [ref=f6e36]:
+            - link [ref=f6e37] [cursor=pointer]:
+              - /url: https://laravel.com/docs/
+              - button "Docs" [ref=f6e38]
+          - listitem [ref=f6e42]:
+            - link [ref=f6e43] [cursor=pointer]:
+              - /url: "#settings"
+              - button [ref=f6e44]
+            - generic:
+              - generic:
+                - generic:
+                  - heading "Ignition Settings" [level=4]
+                  - link "Docs":
+                    - /url: https://flareapp.io/ignition?utm_campaign=ignition&utm_source=ignition
+                - generic:
+                  - text: Editor
+                  - generic:
+                    - combobox "Editor":
+                      - option "Clipboard"
+                      - option "Sublime"
+                      - option "TextMate"
+                      - option "Emacs"
+                      - option "MacVim"
+                      - option "PhpStorm" [selected]
+                      - option "PHPStorm Remote"
+                      - option "Idea"
+                      - option "VS Code"
+                      - option "VS Code Insiders"
+                      - option "VS Code Remote"
+                      - option "VS Code Insiders Remote"
+                      - option "VS Codium"
+                      - option "Cursor"
+                      - option "Atom"
+                      - option "Nova"
+                      - option "NetBeans"
+                      - option "Xdebug"
+                - generic:
+                  - text: Theme
+                  - button "auto"
+                - generic:
+                  - button "Save settings"
+                - paragraph:
+                  - text: Settings will be saved locally in
+                  - code: ~/.ignition.json
+                  - text: .
+      - 'link "The GET method is not supported for route logout. Supported methods: POST." [ref=f6e50] [cursor=pointer]':
+        - /url: "#top"
+  - main [ref=f6e52]:
+    - main [ref=f6e56]:
+      - generic [ref=f6e58]:
+        - generic [ref=f6e59]:
+          - generic [ref=f6e61]:
+            - generic [ref=f6e62]: Symfony
+            - generic [ref=f6e63]: \
+            - generic [ref=f6e64]: Component
+            - generic [ref=f6e65]: \
+            - generic [ref=f6e66]: HttpKernel
+            - generic [ref=f6e67]: \
+            - generic [ref=f6e68]: Exception
+            - generic [ref=f6e69]: \
+            - generic [ref=f6e70]: MethodNotAllowedHttpException
+          - generic [ref=f6e71]:
+            - generic [ref=f6e72]: PHP 8.5.11
+            - generic [ref=f6e73]: 10.50.0
+        - generic [ref=f6e76]: "The GET method is not supported for route logout. Supported methods: POST."
+    - generic [ref=f6e80]:
+      - complementary [ref=f6e81]:
+        - generic [ref=f6e82]:
+          - button "Expand vendor frames" [ref=f6e84] [cursor=pointer]
+          - list [ref=f6e91]:
+            - listitem [ref=f6e92] [cursor=pointer]: 26 vendor frames
+            - listitem [ref=f6e95]:
+              - generic [ref=f6e97]:
+                - generic [ref=f6e98]: public
+                - generic [ref=f6e99]: /
+                - generic [ref=f6e100]: index
+                - generic [ref=f6e101]: .php
+                - generic [ref=f6e102]: ": 51"
+              - generic [ref=f6e103]: require_once
+            - listitem [ref=f6e104]
+            - listitem [ref=f6e105] [cursor=pointer]: 1 vendor frame
+      - generic [ref=f6e108]:
+        - 'link "public / index .php : 51" [ref=f6e110] [cursor=pointer]':
+          - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=51
+          - generic [ref=f6e111]:
+            - generic [ref=f6e112]: public
+            - generic [ref=f6e113]: /
+            - generic [ref=f6e114]: index
+            - generic [ref=f6e115]: .php
+            - generic [ref=f6e116]: ": 51"
+        - main [ref=f6e117]:
+          - navigation [ref=f6e118]:
+            - generic [ref=f6e119]:
+              - paragraph [ref=f6e120]: "27"
+              - paragraph [ref=f6e121]: "28"
+              - paragraph [ref=f6e122]: "29"
+              - paragraph [ref=f6e123]: "30"
+              - paragraph [ref=f6e124]: "31"
+              - paragraph [ref=f6e125]: "32"
+              - paragraph [ref=f6e126]: "33"
+              - paragraph [ref=f6e127]: "34"
+              - paragraph [ref=f6e128]: "35"
+              - paragraph [ref=f6e129]: "36"
+              - paragraph [ref=f6e130]: "37"
+              - paragraph [ref=f6e131]: "38"
+              - paragraph [ref=f6e132]: "39"
+              - paragraph [ref=f6e133]: "40"
+              - paragraph [ref=f6e134]: "41"
+              - paragraph [ref=f6e135]: "42"
+              - paragraph [ref=f6e136]: "43"
+              - paragraph [ref=f6e137]: "44"
+              - paragraph [ref=f6e138]: "45"
+              - paragraph [ref=f6e139]: "46"
+              - paragraph [ref=f6e140]: "47"
+              - paragraph [ref=f6e141]: "48"
+              - paragraph [ref=f6e142]: "49"
+              - paragraph [ref=f6e143]: "50"
+              - paragraph [ref=f6e144]: "51"
+              - paragraph [ref=f6e145]: "52"
+              - paragraph [ref=f6e146]: "53"
+              - paragraph [ref=f6e147]: "54"
+              - paragraph [ref=f6e148]: "55"
+              - paragraph [ref=f6e149]: "56"
+          - code [ref=f6e152]:
+            - generic [ref=f6e153]:
+              - link [ref=f6e154] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=27
+                - button [ref=f6e155]
+              - generic [ref=f6e158]: "|"
+            - generic [ref=f6e160]:
+              - link [ref=f6e161] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=28
+                - button [ref=f6e162]
+              - generic [ref=f6e165]: "| Composer provides a convenient, automatically generated class loader for"
+            - generic [ref=f6e167]:
+              - link [ref=f6e168] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=29
+                - button [ref=f6e169]
+              - generic [ref=f6e172]: "| this application. We just need to utilize it! We'll simply require it"
+            - generic [ref=f6e174]:
+              - link [ref=f6e175] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=30
+                - button [ref=f6e176]
+              - generic [ref=f6e179]: "| into the script here so we don't need to manually load our classes."
+            - generic [ref=f6e181]:
+              - link [ref=f6e182] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=31
+                - button [ref=f6e183]
+              - generic [ref=f6e186]: "|"
+            - generic [ref=f6e187]:
+              - link [ref=f6e188] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=32
+                - button [ref=f6e189]
+              - generic [ref=f6e192]: "*/"
+            - link [ref=f6e194] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=33
+              - button [ref=f6e195]
+            - generic [ref=f6e199]:
+              - link [ref=f6e200] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=34
+                - button [ref=f6e201]
+              - generic [ref=f6e204]: require __DIR__.'/../vendor/autoload.php';
+            - link [ref=f6e207] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=35
+              - button [ref=f6e208]
+            - generic [ref=f6e212]:
+              - link [ref=f6e213] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=36
+                - button [ref=f6e214]
+              - generic [ref=f6e217]: /*
+            - generic [ref=f6e218]:
+              - link [ref=f6e219] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=37
+                - button [ref=f6e220]
+              - generic [ref=f6e223]: "|--------------------------------------------------------------------------"
+            - generic [ref=f6e224]:
+              - link [ref=f6e225] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=38
+                - button [ref=f6e226]
+              - generic [ref=f6e229]: "| Run The Application"
+            - generic [ref=f6e231]:
+              - link [ref=f6e232] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=39
+                - button [ref=f6e233]
+              - generic [ref=f6e236]: "|--------------------------------------------------------------------------"
+            - generic [ref=f6e237]:
+              - link [ref=f6e238] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=40
+                - button [ref=f6e239]
+              - generic [ref=f6e242]: "|"
+            - generic [ref=f6e243]:
+              - link [ref=f6e244] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=41
+                - button [ref=f6e245]
+              - generic [ref=f6e248]: "| Once we have the application, we can handle the incoming request using"
+            - generic [ref=f6e250]:
+              - link [ref=f6e251] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=42
+                - button [ref=f6e252]
+              - generic [ref=f6e255]: "| the application's HTTP kernel. Then, we will send the response back"
+            - generic [ref=f6e257]:
+              - link [ref=f6e258] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=43
+                - button [ref=f6e259]
+              - generic [ref=f6e262]: "| to this client's browser, allowing them to enjoy our application."
+            - generic [ref=f6e264]:
+              - link [ref=f6e265] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=44
+                - button [ref=f6e266]
+              - generic [ref=f6e269]: "|"
+            - generic [ref=f6e270]:
+              - link [ref=f6e271] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=45
+                - button [ref=f6e272]
+              - generic [ref=f6e275]: "*/"
+            - link [ref=f6e277] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=46
+              - button [ref=f6e278]
+            - generic [ref=f6e282]:
+              - link [ref=f6e283] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=47
+                - button [ref=f6e284]
+              - generic [ref=f6e287]: $app = require_once __DIR__.'/../bootstrap/app.php';
+            - link [ref=f6e290] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=48
+              - button [ref=f6e291]
+            - generic [ref=f6e295]:
+              - link [ref=f6e296] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=49
+                - button [ref=f6e297]
+              - generic [ref=f6e300]: $kernel = $app->make(Kernel::class);
+            - link [ref=f6e303] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=50
+              - button [ref=f6e304]
+            - generic [ref=f6e308]:
+              - link [ref=f6e309] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=51
+                - button [ref=f6e310]
+              - generic [ref=f6e313]: $response = $kernel->handle(
+            - generic [ref=f6e315]:
+              - link [ref=f6e316] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=52
+                - button [ref=f6e317]
+              - generic [ref=f6e320]: $request = Request::capture()
+            - generic [ref=f6e322]:
+              - link [ref=f6e323] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=53
+                - button [ref=f6e324]
+              - generic [ref=f6e327]: )->send();
+            - link [ref=f6e330] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=54
+              - button [ref=f6e331]
+            - generic [ref=f6e335]:
+              - link [ref=f6e336] [cursor=pointer]:
+                - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=55
+                - button [ref=f6e337]
+              - generic [ref=f6e340]: $kernel->terminate($request, $response);
+            - link [ref=f6e343] [cursor=pointer]:
+              - /url: phpstorm://open?file=%2FUsers%2Fmaiomi%2Flaravel-practice%2Fpost-app-practice%2Fpublic%2Findex.php&line=56
+              - button [ref=f6e344]
+    - generic [ref=f6e349]:
+      - navigation [ref=f6e350]:
+        - list [ref=f6e352]:
+          - listitem [ref=f6e353]:
+            - link "Request" [ref=f6e354] [cursor=pointer]:
+              - /url: "#context-request"
+            - list [ref=f6e355]:
+              - listitem [ref=f6e356]:
+                - link "Browser" [ref=f6e357] [cursor=pointer]:
+                  - /url: "#context-request-browser"
+              - listitem [ref=f6e362]:
+                - link "Headers" [ref=f6e363] [cursor=pointer]:
+                  - /url: "#context-request-headers"
+              - listitem [ref=f6e368]:
+                - link "Body" [ref=f6e369] [cursor=pointer]:
+                  - /url: "#context-request-body"
+          - listitem [ref=f6e374]:
+            - link "Context" [ref=f6e375] [cursor=pointer]:
+              - /url: "#context-context"
+            - list [ref=f6e376]:
+              - listitem [ref=f6e377]:
+                - link "Git" [ref=f6e378] [cursor=pointer]:
+                  - /url: "#context-context-git"
+              - listitem [ref=f6e383]:
+                - link "Versions" [ref=f6e384] [cursor=pointer]:
+                  - /url: "#context-context-versions"
+      - generic [ref=f6e389]:
+        - generic [ref=f6e390]:
+          - heading "Request" [level=2] [ref=f6e391]
+          - generic [ref=f6e392]:
+            - generic [ref=f6e393]:
+              - generic [ref=f6e394]:
+                - generic [ref=f6e395]: http://localhost/logout
+                - generic [ref=f6e396]: GET
+              - generic [ref=f6e398] [cursor=pointer]:
+                - code [ref=f6e401]:
+                  - code [ref=f6e403]: "curl \"http://localhost/logout\" \\ -X GET \\ -H 'host: localhost' \\ -H 'connection: keep-alive' \\ -H 'sec-ch-ua: \"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\"' \\ -H 'sec-ch-ua-mobile: ?0' \\ -H 'sec-ch-ua-platform: \"macOS\"' \\ -H 'upgrade-insecure-requests: 1' \\ -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36' \\ -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \\ -H 'sec-fetch-site: none' \\ -H 'sec-fetch-mode: navigate' \\ -H 'sec-fetch-user: ?1' \\ -H 'sec-fetch-dest: document' \\ -H 'accept-encoding: gzip, deflate, br, zstd' \\ -H 'accept-language: ja,en-US;q=0.9,en;q=0.8' \\ -H 'cookie: <CENSORED>';"
+                - button "Copy to clipboard" [ref=f6e405]
+                - button [ref=f6e408]
+            - generic [ref=f6e411]:
+              - heading "Browser" [level=1] [ref=f6e412]
+              - generic [ref=f6e416]:
+                - code [ref=f6e419]: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36
+                - button "Copy to clipboard" [ref=f6e421] [cursor=pointer]
+            - generic [ref=f6e424]:
+              - heading "Headers" [level=1] [ref=f6e425]
+              - generic [ref=f6e429]:
+                - generic [ref=f6e430]:
+                  - term [ref=f6e431]: host
+                  - definition [ref=f6e432]:
+                    - generic [ref=f6e433]:
+                      - code [ref=f6e436]: localhost
+                      - button "Copy to clipboard" [ref=f6e438] [cursor=pointer]
+                - generic [ref=f6e441]:
+                  - term [ref=f6e442]: connection
+                  - definition [ref=f6e443]:
+                    - generic [ref=f6e444]:
+                      - code [ref=f6e447]: keep-alive
+                      - button "Copy to clipboard" [ref=f6e449] [cursor=pointer]
+                - generic [ref=f6e452]:
+                  - term [ref=f6e453]: sec-ch-ua
+                  - definition [ref=f6e454]:
+                    - generic [ref=f6e455]:
+                      - code [ref=f6e458]: "\"Not-A.Brand\";v=\"99\", \"Google Chrome\";v=\"157\", \"Chromium\";v=\"157\""
+                      - button "Copy to clipboard" [ref=f6e460] [cursor=pointer]
+                - generic [ref=f6e463]:
+                  - term [ref=f6e464]: sec-ch-ua-mobile
+                  - definition [ref=f6e465]:
+                    - generic [ref=f6e466]:
+                      - code [ref=f6e469]: "?0"
+                      - button "Copy to clipboard" [ref=f6e471] [cursor=pointer]
+                - generic [ref=f6e474]:
+                  - term [ref=f6e475]: sec-ch-ua-platform
+                  - definition [ref=f6e476]:
+                    - generic [ref=f6e477]:
+                      - code [ref=f6e480]: "\"macOS\""
+                      - button "Copy to clipboard" [ref=f6e482] [cursor=pointer]
+                - generic [ref=f6e485]:
+                  - term [ref=f6e486]: upgrade-insecure-requests
+                  - definition [ref=f6e487]:
+                    - generic [ref=f6e488]:
+                      - code [ref=f6e491]: "1"
+                      - button "Copy to clipboard" [ref=f6e493] [cursor=pointer]
+                - generic [ref=f6e496]:
+                  - term [ref=f6e497]: user-agent
+                  - definition [ref=f6e498]:
+                    - generic [ref=f6e499]:
+                      - code [ref=f6e502]: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36
+                      - button "Copy to clipboard" [ref=f6e504] [cursor=pointer]
+                - generic [ref=f6e507]:
+                  - term [ref=f6e508]: accept
+                  - definition [ref=f6e509]:
+                    - generic [ref=f6e510]:
+                      - code [ref=f6e513]: text/html,application/xhtml+xml,application/xml;q=0.9,image/jxl,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+                      - button "Copy to clipboard" [ref=f6e515] [cursor=pointer]
+                - generic [ref=f6e518]:
+                  - term [ref=f6e519]: sec-fetch-site
+                  - definition [ref=f6e520]:
+                    - generic [ref=f6e521]:
+                      - code [ref=f6e524]: none
+                      - button "Copy to clipboard" [ref=f6e526] [cursor=pointer]
+                - generic [ref=f6e529]:
+                  - term [ref=f6e530]: sec-fetch-mode
+                  - definition [ref=f6e531]:
+                    - generic [ref=f6e532]:
+                      - code [ref=f6e535]: navigate
+                      - button "Copy to clipboard" [ref=f6e537] [cursor=pointer]
+                - generic [ref=f6e540]:
+                  - term [ref=f6e541]: sec-fetch-user
+                  - definition [ref=f6e542]:
+                    - generic [ref=f6e543]:
+                      - code [ref=f6e546]: "?1"
+                      - button "Copy to clipboard" [ref=f6e548] [cursor=pointer]
+                - generic [ref=f6e551]:
+                  - term [ref=f6e552]: sec-fetch-dest
+                  - definition [ref=f6e553]:
+                    - generic [ref=f6e554]:
+                      - code [ref=f6e557]: document
+                      - button "Copy to clipboard" [ref=f6e559] [cursor=pointer]
+                - generic [ref=f6e562]:
+                  - term [ref=f6e563]: accept-encoding
+                  - definition [ref=f6e564]:
+                    - generic [ref=f6e565]:
+                      - code [ref=f6e568]: gzip, deflate, br, zstd
+                      - button "Copy to clipboard" [ref=f6e570] [cursor=pointer]
+                - generic [ref=f6e573]:
+                  - term [ref=f6e574]: accept-language
+                  - definition [ref=f6e575]:
+                    - generic [ref=f6e576]:
+                      - code [ref=f6e579]: ja,en-US;q=0.9,en;q=0.8
+                      - button "Copy to clipboard" [ref=f6e581] [cursor=pointer]
+                - generic [ref=f6e584]:
+                  - term [ref=f6e585]: cookie
+                  - definition [ref=f6e586]:
+                    - generic [ref=f6e587]:
+                      - code [ref=f6e590]: <CENSORED>
+                      - button "Copy to clipboard" [ref=f6e592] [cursor=pointer]
+            - generic [ref=f6e595]:
+              - heading "Body" [level=1] [ref=f6e596]
+              - generic [ref=f6e600]:
+                - code [ref=f6e603]: "[]"
+                - button "Copy to clipboard" [ref=f6e605] [cursor=pointer]
+        - generic [ref=f6e608]:
+          - heading "Context" [level=2] [ref=f6e609]
+          - generic [ref=f6e610]:
+            - generic [ref=f6e611]:
+              - heading "Git" [level=1] [ref=f6e612]
+              - generic [ref=f6e616]:
+                - generic [ref=f6e617]: "fix: コードレビュー指摘の修正"
+                - generic [ref=f6e618]:
+                  - generic [ref=f6e619]:
+                    - code [ref=f6e622]: ded2a397650d8ef9c46b098674730e4a1a935023
+                    - button "Copy to clipboard" [ref=f6e624] [cursor=pointer]
+                  - link [ref=f6e627] [cursor=pointer]:
+                    - /url: https://github.com/mai-omi/post-app-practice/commit/ded2a397650d8ef9c46b098674730e4a1a935023
+                    - button "View commit ded2a39" [ref=f6e628]
+              - paragraph [ref=f6e637]: Last commit is dirty. (Un)staged changes have been made since this commit.
+            - generic [ref=f6e638]:
+              - heading "Versions" [level=1] [ref=f6e639]
+              - generic [ref=f6e643]:
+                - generic [ref=f6e644]:
+                  - term [ref=f6e645]: Php Version
+                  - definition [ref=f6e646]:
+                    - generic [ref=f6e647]:
+                      - code [ref=f6e650]: 8.5.11
+                      - button "Copy to clipboard" [ref=f6e652] [cursor=pointer]
+                - generic [ref=f6e655]:
+                  - term [ref=f6e656]: Laravel Version
+                  - definition [ref=f6e657]:
+                    - generic [ref=f6e658]:
+                      - code [ref=f6e661]: 10.50.0
+                      - button "Copy to clipboard" [ref=f6e663] [cursor=pointer]
+                - generic [ref=f6e666]:
+                  - term [ref=f6e667]: Laravel Locale
+                  - definition [ref=f6e668]:
+                    - generic [ref=f6e669]:
+                      - code [ref=f6e672]: en
+                      - button "Copy to clipboard" [ref=f6e674] [cursor=pointer]
+                - generic [ref=f6e677]:
+                  - term [ref=f6e678]: Laravel Config Cached
+                  - definition [ref=f6e679]:
+                    - generic [ref=f6e680]: "false"
+                - generic [ref=f6e684]:
+                  - term [ref=f6e685]: App Debug
+                  - definition [ref=f6e686]:
+                    - generic [ref=f6e687]: "true"
+                - generic [ref=f6e691]:
+                  - term [ref=f6e692]: App Env
+                  - definition [ref=f6e693]:
+                    - generic [ref=f6e694]:
+                      - code [ref=f6e697]: local
+                      - button "Copy to clipboard" [ref=f6e699] [cursor=pointer]
+    - generic [ref=f6e703]:
+      - list [ref=f6e704]:
+        - listitem [ref=f6e705]
+        - listitem [ref=f6e714]: ·
+        - listitem [ref=f6e715]:
+          - link "Source" [ref=f6e716] [cursor=pointer]:
+            - /url: https://github.com/spatie/laravel-ignition
+        - listitem [ref=f6e717]: ·
+        - listitem [ref=f6e718]:
+          - link "Docs" [ref=f6e719] [cursor=pointer]:
+            - /url: https://flareapp.io/docs/ignition/introducing-ignition/overview
+        - listitem [ref=f6e720]: ·
+        - listitem [ref=f6e721]:
+          - link "Laravel" [ref=f6e722] [cursor=pointer]:
+            - /url: https://laravel.com
+      - paragraph [ref=f6e724]:
+        - text: Ignition is built by
+        - link "Flare" [ref=f6e725] [cursor=pointer]:
+          - /url: https://flareapp.io/?utm_campaign=ignition&utm_source=ignition
+        - text: ", the Laravel error reporting service."

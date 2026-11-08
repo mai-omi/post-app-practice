@@ -1,0 +1,31 @@
+- generic [ref=f5e2]:
+  - banner [ref=f5e3]:
+    - link "つ つぶやき投稿アプリ" [ref=f5e5] [cursor=pointer]:
+      - /url: http://localhost/posts
+      - generic [ref=f5e6]: つ
+      - text: つぶやき投稿アプリ
+    - generic [ref=f5e7]: ポスト詳細
+  - main [ref=f5e8]:
+    - generic [ref=f5e9]:
+      - generic [ref=f5e10]:
+        - generic [ref=f5e11]: そ
+        - generic [ref=f5e12]: そうた
+        - generic [ref=f5e13]: 雑記
+      - paragraph [ref=f5e14]: 休憩宣言
+      - paragraph [ref=f5e15]: 2時間集中したのでアイス食べます。溶ける前に食べ切るまでが休憩です。
+      - paragraph [ref=f5e16]: 2026年11月4日 08:42
+    - generic [ref=f5e17]: リプライ 1件
+    - article [ref=f5e18]:
+      - generic [ref=f5e19]: は
+      - generic [ref=f5e20]:
+        - generic [ref=f5e21]:
+          - generic [ref=f5e22]: はるか
+          - generic [ref=f5e23]: ・11月7日 03:17
+        - paragraph [ref=f5e24]: テスト用リプライです！
+        - button "削除" [ref=f5e26] [cursor=pointer]
+    - generic [ref=f5e28]:
+      - generic [ref=f5e29]: リプライを送る
+      - textbox "リプライを送る" [ref=f5e30]
+      - paragraph [ref=f5e31]: 残り 140 字
+      - paragraph [ref=f5e32]: 本文を入力してください。
+      - button "送信" [ref=f5e34] [cursor=pointer]
