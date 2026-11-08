@@ -28,6 +28,9 @@
         .btn-secondary:hover { background: #F7F8F9; }
         .btn:focus-visible { outline: 2px solid #E8792B; outline-offset: 2px; }
         .error { color: #D6402C; font-size: 0.83rem; margin-top: 0.3rem; }
+        .char-counter { font-size: 0.8rem; color: #5B6570; text-align: right; margin-top: 0.3rem; }
+        .char-counter.warn { color: #E8792B; }
+        .char-counter.over { color: #D6402C; font-weight: 700; }
     </style>
 </head>
 <body>
@@ -67,6 +70,7 @@
                 <div class="form-group">
                     <label for="content">本文</label>
                     <textarea id="content" name="content" required>{{ old('content', $post->content) }}</textarea>
+                    <p class="char-counter" id="char-counter">残り <span id="char-remaining">140</span> 字</p>
                     @error('content')
                         <p class="error">{{ $message }}</p>
                     @enderror
@@ -79,5 +83,21 @@
             </form>
         </main>
     </div>
+<script>
+const textarea  = document.getElementById('content');
+const remaining = document.getElementById('char-remaining');
+const counter   = document.getElementById('char-counter');
+const MAX = 140;
+
+function update() {
+    const left = MAX - [...textarea.value].length;
+    remaining.textContent = left;
+    counter.classList.toggle('over', left < 0);
+    counter.classList.toggle('warn', left >= 0 && left <= 20);
+}
+
+textarea.addEventListener('input', update);
+update();
+</script>
 </body>
 </html>
