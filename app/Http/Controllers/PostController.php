@@ -15,6 +15,14 @@ class PostController extends Controller
         return view('posts.index', compact('posts'));
     }
 
+    public function show(Post $post)
+    {
+        $post->load(['user', 'category']);
+        $replies = $post->replies()->with('user')->oldest()->get();
+
+        return view('posts.show', compact('post', 'replies'));
+    }
+
     public function edit(Post $post)
     {
         $this->authorize('update', $post);
@@ -28,11 +36,16 @@ class PostController extends Controller
     {
         $this->authorize('update', $post);
 
-        $validated = $request->validate([
-            'title' => 'required|string|max:255',
-            'content' => 'required|string',
-            'category_id' => 'required|exists:categories,id',
-        ]);
+        $validated = $request->validate(
+            [
+                'title'       => 'required|string|max:255',
+                'content'     => 'required|string|max:140',
+                'category_id' => 'required|exists:categories,id',
+            ],
+            [
+                'content.max' => '本文は140字以内で入力してください。',
+            ]
+        );
 
         $post->update($validated);
 

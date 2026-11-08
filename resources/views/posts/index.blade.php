@@ -59,31 +59,18 @@
                 <p class="empty">まだポストがありません。</p>
             @else
                 @php
-                    // アイコンの色は登録した名前から決まる（crc32 % 18）
                     $grad = [
-                        ['#5B8DEF', '#3F5FD0'],
-                        ['#E8A23D', '#C97F1B'],
-                        ['#34B58B', '#1E8A6E'],
-                        ['#E05252', '#B93245'],
-                        ['#8E6AE0', '#6748BE'],
-                        ['#3FB0C9', '#2884A5'],
-                        ['#F2865C', '#DB5A34'],
-                        ['#6D7BE0', '#4A55C2'],
-                        ['#8FAE3E', '#6C8A26'],
-                        ['#31B183', '#188064'],
-                        ['#7C93B5', '#56718F'],
-                        ['#F7A934', '#E8721F'],
-                        ['#EF6A6A', '#CE3A50'],
-                        ['#9B6CE8', '#6E48C9'],
-                        ['#E45FA3', '#C13A85'],
-                        ['#B58A5C', '#8F653A'],
-                        ['#55A8E2', '#3380BC'],
-                        ['#4E9E8E', '#2F7A6B'],
+                        ['#5B8DEF', '#3F5FD0'], ['#E8A23D', '#C97F1B'], ['#34B58B', '#1E8A6E'],
+                        ['#E05252', '#B93245'], ['#8E6AE0', '#6748BE'], ['#3FB0C9', '#2884A5'],
+                        ['#F2865C', '#DB5A34'], ['#6D7BE0', '#4A55C2'], ['#8FAE3E', '#6C8A26'],
+                        ['#31B183', '#188064'], ['#7C93B5', '#56718F'], ['#F7A934', '#E8721F'],
+                        ['#EF6A6A', '#CE3A50'], ['#9B6CE8', '#6E48C9'], ['#E45FA3', '#C13A85'],
+                        ['#B58A5C', '#8F653A'], ['#55A8E2', '#3380BC'], ['#4E9E8E', '#2F7A6B'],
                     ];
                     $topicTone = [
                         'お知らせ' => ['#FFF3DC', '#8A5714'],
                         '技術メモ' => ['#E8F1FD', '#2F5AA8'],
-                        '雑記' => ['#F0F1F3', '#57606A'],
+                        '雑記'    => ['#F0F1F3', '#57606A'],
                     ];
                 @endphp
                 @foreach ($posts as $post)
@@ -101,20 +88,19 @@
                             </div>
                             <p class="post-title">{{ $post->title }}</p>
                             <p class="post-text">{{ $post->content }}</p>
-                            @canany(['update', 'delete'], $post)
-                                <div class="post-actions">
-                                    @can('update', $post)
-                                        <a href="{{ route('posts.edit', $post) }}">編集</a>
-                                    @endcan
-                                    @can('delete', $post)
-                                        <form action="{{ route('posts.destroy', $post) }}" method="POST" style="display: inline;">
-                                            @csrf
-                                            @method('DELETE')
-                                            <button type="submit">削除</button>
-                                        </form>
-                                    @endcan
-                                </div>
-                            @endcanany
+                            <div class="post-actions">
+                                <a href="{{ route('posts.show', $post) }}">返信を見る</a>
+                                @can('update', $post)
+                                    <a href="{{ route('posts.edit', $post) }}">編集</a>
+                                @endcan
+                                @can('delete', $post)
+                                    <form action="{{ route('posts.destroy', $post) }}" method="POST" style="display: inline;">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit">削除</button>
+                                    </form>
+                                @endcan
+                            </div>
                         </div>
                     </article>
                 @endforeach
