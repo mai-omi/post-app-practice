@@ -38,6 +38,18 @@ Kiro-style Spec-Driven Development on an agentic SDLC
 
 - 今ある動き（一覧・編集・削除）を壊さない。
 - バリデーションエラーメッセージはすべて日本語で出力する。
+- テキスト入力フィールドの文字数上限は140字とする。
+
+## Design Conventions
+
+設計書の見出しは以下の順で並べる：
+
+1. 概要
+2. データモデル
+3. ルーティング
+4. バリデーション
+5. 画面設計
+6. テスト方針
 
 ## Pull Request Rules
 
@@ -50,6 +62,8 @@ Kiro-style Spec-Driven Development on an agentic SDLC
 - Human review required each phase; use `-y` only for intentional fast-track
 - Keep steering current and verify alignment with `/kiro:spec-status`
 - Follow the user's instructions precisely, and within that scope act autonomously: gather the necessary context and complete the requested work end-to-end in this run, asking questions only when essential information is missing or the instructions are critically ambiguous.
+- マイグレーション実行後は出力を必ず確認し、エラーがないことを見てから次の作業に進む。
+- 一覧表示のクエリには `with()` による Eager Loading が付いているかを確認する（N+1防止）。
 
 ## Steering Configuration
 - Load entire `.kiro/steering/` as project memory
