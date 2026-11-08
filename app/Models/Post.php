@@ -33,8 +33,11 @@ class Post extends Model
         return $this->hasMany(Like::class);
     }
 
-    public function isLikedBy(int $userId): bool
+    public function isLikedBy(?int $userId): bool
     {
-        return $this->likes->contains('user_id', $userId);
+        if ($userId === null) {
+            return false;
+        }
+        return $this->likes()->where('user_id', $userId)->exists();
     }
 }

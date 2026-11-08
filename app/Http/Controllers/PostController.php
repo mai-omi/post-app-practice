@@ -11,7 +11,7 @@ class PostController extends Controller
     public function index()
     {
         // 投稿一覧をユーザー・カテゴリと一緒に新しい順で取得してタイムラインに渡す
-        $posts = Post::with(['user', 'category', 'likes'])->latest()->get();
+        $posts = Post::with(['user', 'category'])->withCount('likes')->latest()->get();
 
         return view('posts.index', compact('posts'));
     }

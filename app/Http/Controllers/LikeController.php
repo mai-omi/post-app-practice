@@ -10,12 +10,14 @@ class LikeController extends Controller
     {
         $userId = auth()->id();
 
-        $like = $post->likes()->where('user_id', $userId)->first();
+        $deleted = $post->likes()->where('user_id', $userId)->delete();
 
-        if ($like) {
-            $like->delete();
-        } else {
-            $post->likes()->create(['user_id' => $userId]);
+        if (!$deleted) {
+            try {
+                $post->likes()->create(['user_id' => $userId]);
+            } catch (\Illuminate\Database\UniqueConstraintViolationException) {
+                // 同時リクエストによる競合 — すでにいいね済みとして扱う
+            }
         }
 
         return redirect()->route('posts.index');

@@ -118,7 +118,7 @@
                                 <form action="{{ route('posts.like', $post) }}" method="POST" style="display: inline;">
                                     @csrf
                                     <button type="submit" class="like-btn {{ $liked ? 'liked' : '' }}">
-                                        {{ $liked ? '♥' : '♡' }} {{ $post->likes->count() }}
+                                        {{ $liked ? '♥' : '♡' }} {{ $post->likes_count }}
                                     </button>
                                 </form>
                                 @can('update', $post)

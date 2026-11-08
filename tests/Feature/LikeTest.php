@@ -62,7 +62,7 @@ class LikeTest extends TestCase
         $response = $this->actingAs($this->user)->get(route('posts.index'));
 
         $response->assertStatus(200);
-        $response->assertSee('1');
+        $response->assertSee('♥ 1');
     }
 
     // 受け入れ条件4: 未認証ユーザーがいいねを押すとログインページへリダイレクトされる
