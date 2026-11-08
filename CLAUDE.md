@@ -39,12 +39,6 @@ Kiro-style Spec-Driven Development on an agentic SDLC
 - 今ある動き（一覧・編集・削除）を壊さない。
 - バリデーションエラーメッセージはすべて日本語で出力する。
 
-## Testing Rules
-
-- 機能を実装・変更したら、対応するテストを必ず書く。
-- テストは `./vendor/bin/sail test` で実行し、すべて通るまで修正する。
-- 完了報告には「テスト実行結果（件数・Pass/Fail）」を含める。
-
 ## Pull Request Rules
 
 - PR 本文には以下を含める：
