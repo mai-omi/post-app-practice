@@ -23,7 +23,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "test -x vendor/bin/sail || exit 0; ./vendor/bin/sail artisan test >&2 || exit 2"
+            "command": "test -x vendor/bin/sail && docker info >/dev/null 2>&1 || exit 0; ./vendor/bin/sail artisan test >&2 || exit 2"
           }
         ]
       }
