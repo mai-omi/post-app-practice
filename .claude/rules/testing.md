@@ -1,3 +1,8 @@
+---
+paths:
+  - tests/**
+---
+
 # Testing Rules
 
 ## 実行コマンド
