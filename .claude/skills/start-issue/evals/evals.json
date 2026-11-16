@@ -1,0 +1,23 @@
+{
+  "skill_name": "start-issue",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "Issue #1 に着手したいです。",
+      "expected_output": "既存の feature/reply-issue-1 に main にないコミットがあることをユーザーに見せ、新しく切るか確認する。その後 main を pull し、ブランチを作成し、docs/reply.md を読んで計画を立てる。複数ファイルにまたがる変更になるため plan モードに入る。",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "Issue #5 の作業を始めたい。",
+      "expected_output": "gh issue view 5 でイシュー内容を確認し、docs/ に設計書がないことを確認してイシューの完成条件を突き合わせ先にする。変更が小さければ plan モードに入らず一言で確認を取る。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "認証まわりの整理を始めたい。イシューは #1 だけど、feature/reply-issue-1 はリプライ機能のブランチで今回とは別物です。",
+      "expected_output": "feature/reply-issue-1 が別物であることをユーザーが明示しているので、main から feature/issue-1-auth のような名前でブランチを新規作成する。config/fortify.php と FortifyServiceProvider を調べ、何を変えるか計画を立てる。",
+      "files": []
+    }
+  ]
+}

@@ -51,11 +51,21 @@ Kiro-style Spec-Driven Development on an agentic SDLC
 5. 画面設計
 6. テスト方針
 
-## Pull Request Rules
+## ブランチとプルリクエスト
 
-- PR 本文には以下を含める：
-  - テスト実行結果（件数・Pass/Fail）
-  - 受け入れ条件と実装内容の突き合わせ（条件ごとに対応箇所を示す）
+### ブランチ名
+
+| 種別 | 形式 | 例 |
+|------|------|----|
+| イシューに紐づく機能 | `feature/issue-{N}-{説明}` | `feature/issue-3-reply` |
+| イシューに紐づかない直し（`.claude/` の物差し・設計書のみの修正など） | `chore/{説明}` | `chore/harness-gaps` |
+
+- イシュー1件に1本のブランチを切る
+- マージしたらリモート・ローカル両方のブランチを削除する
+
+### PR の作り方
+
+`.claude/skills/submit-pr/` スキルを使う。
 
 ## Development Rules
 - 3-phase approval workflow: Requirements → Design → Tasks → Implementation
