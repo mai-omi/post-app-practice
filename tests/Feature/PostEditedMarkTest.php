@@ -18,7 +18,7 @@ class PostEditedMarkTest extends TestCase
     protected function setUp(): void
     {
         parent::setUp();
-        $this->user     = User::factory()->create();
+        $this->user = User::factory()->create();
         $this->category = Category::factory()->create();
     }
 
@@ -26,7 +26,7 @@ class PostEditedMarkTest extends TestCase
     public function test_未編集のポストにはタイムラインに編集済みが出ない(): void
     {
         Post::factory()->create([
-            'user_id'     => $this->user->id,
+            'user_id' => $this->user->id,
             'category_id' => $this->category->id,
         ]);
 
@@ -40,10 +40,10 @@ class PostEditedMarkTest extends TestCase
     public function test_編集済みのポストにはタイムラインに編集済みが出る(): void
     {
         $post = Post::factory()->create([
-            'user_id'     => $this->user->id,
+            'user_id' => $this->user->id,
             'category_id' => $this->category->id,
-            'created_at'  => now()->subMinute(),
-            'updated_at'  => now(),
+            'created_at' => now()->subMinute(),
+            'updated_at' => now(),
         ]);
 
         $response = $this->actingAs($this->user)->get(route('posts.index'));
